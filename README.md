@@ -1,135 +1,75 @@
-## Welcome to Midori Browser Github Repository 👋
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# midori-desktop
 
-[![build result](https://build.opensuse.org/projects/home:astian-inc/packages/midori-browser/badge.svg?type=default)](https://build.opensuse.org/package/show/home:astian-inc/midori-browser)
-[![Telegram](https://img.shields.io/badge/Telegram-Chat-gray.svg?style=flat&logo=telegram&colorA=5583a4&logoColor=fff)](https://t.me/midoriweb)
-[![Twitter](https://img.shields.io/twitter/follow/midoriweb.svg?style=social&label=Follow)](https://twitter.com/grupoastian)
-[![Donate](https://img.shields.io/badge/Stripe-Donate-gray.svg?style=flat&logo=stripe&colorA=0071bb&logoColor=fff)](https://donate.stripe.com/00g6s675Xawl6ZO9AH)
-[![Patreon](https://img.shields.io/badge/PATREON-Pledge-red.svg)](https://www.patreon.com/midori_browser)
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/midori-desktop)
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://gitlab.com/midori-web/midori-desktop">
-    <img src="https://astian.org/wp-content/uploads/2024/12/midori-compuesto.png" alt="Logo" width="320" height="105">
-  </a>
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-  <h3 align="center">Midori Browser </h3>
+## Architecture
 
-  <p align="center">
-       Midori initially uses the Gecko/Firefox code under the Floorp Browser project. Both Midori and Floorp projects are collaborating to improve and offer an exceptional user experience, with significant differences. Later, as updates are released, the original code will be differentiated. , but both projects will continue to collaborate
-    <br />
-    <br />
-    <a href="https://astian.org/midori-browser">Official Site</a>
-    ・
-    <a href="https://astian.org/midori-browser/download">Download</a>
-    ・
-    <a href="https://astian.org/midori-en">Blog & Release Notes</a>
-    ・
-    <a href="https://help.astian.org">Official Support Site & Send feedback</a>
-  </p>
-</div>
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
+## Install
 
-## ⚡ Get Started
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
+```bash
+git clone https://github.com/Interested-Deving-1896/midori-desktop.git
+cd midori-desktop
+```
 
-### 💻 Supported Operating Systems & Requirements
+## Usage
 
-Midori Browser is available for Windows, macOS, and Linux. You can install it by running the installer or by extracting the archive.
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-#### Windows
+## Configuration
 
-- Windows 10 or later. (Windows 7 and 8 are not supported)
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-- x86_64 CPU architecture. AArch64 is not supported.
+## CI
 
-- Midori provides "exe" installer & "Winget" install.
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
 
-**Midori is in the process of obtaining a license to sign  Certum Open Source Code Signing Certificate. The official Midori installer is signed by "Open Source Developer, Astian, Inc". However, the installer for the Daylight build is not signed.**
+## Mirror chain
 
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/midori-desktop`](https://github.com/Interested-Deving-1896/midori-desktop) and mirrored through:
 
-#### macOS
+```
+Interested-Deving-1896/midori-desktop  ──►  OpenOS-Project-OSP/midori-desktop  ──►  OpenOS-Project-Ecosystem-OOC/midori-desktop
+```
 
-- macOS 10.12 or later.
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
-- x86_64 CPU & ARM64 CPU architecture. Midori provides a Universal build for both architectures.
+## Contributors
 
-**Midori is in the process of obtaining Apple certification. This means that you can install Midori without any warning messages. Additionally, Midori now includes an auto-update system.**
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
 
-#### Linux
+## Origins
 
-- Debian-based distributions (such as Ubuntu and Linux Mint) and Arch-based distributions (such as Manjaro) are supported.
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
 
-- x86_64 & AAarch64 CPU architecture.
+## Resources
 
-- Midori Browser Requirements: ["Firefox Linux Requirements"](https://www.mozilla.org/en-US/firefox/115.0beta/system-requirements/#gnulinux)
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
 
+## License
 
-### 📥 Download & 📦 Install
-
-You can download the latest version of Midori Browser from the official website: [Astian.org](https://astian.org/midori-browser/download) or from the [Gitlab Releases](https://gitlab.com/midori-web/midori-desktop/-/releases) page.
-
-Linux (Debian, xUbuntu, Mint)
-sudo wget -O /etc/apt/trusted.gpg.d/midori-archive-keyring.gpg http://repo.astian.org/midori-archive-keyring.gpg && echo "deb http://repo.astian.org midori main" | sudo tee /etc/apt/sources.list.d/midori.list
-  - sudo apt update
-  - Run: sudo apt install ./midori_<version>_amd64.deb
-
----
-
-## 📖 Documentation
-
-### 📝 License
-
-[Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
-
-- Midori Browser's name is a registered trademark of Astian, Inc developer, and Midori logo is protected by copyright
-
-- Midori Browser is based on Mozilla Firefox. Midori Browser is not affiliated with Mozilla, Mozilla Firefox.
-
-### 📧 Contact
-
-- [Official Support Site](https://astian.org/community)
-
-- [Official Astian Twitter](https://twitter.com/grupoastian)
-
-- [Official Midori Community Telegram](https://t.me/midoriweb)
-
-### Contribute
-
-You can contribute through a donation on our website. We recommend that you first read our manifesto and then donate here we leave you the links
-- [Manifest](https://astian.org/community/midori-browser/donations-for-midori-please/)
-- [Donate](https://astian.org/midori-browser/donate-to-midori/)
-- Midori on Open collective(https://opencollective.com/midori-browser)
-
-### 📜 Privacy Policy
-
-- [Astian Privacy Policy](https://astian.org/astian-privacy-policies/)
-
----
-## Support
-
-[Midori Desktop](https://ads.fund/token/0xadf874910516cffb6c3317f94392ae11887b23f0) project is supported by ADS.FUND
-
----
-## 🌟 Contributing
-
-### 🧰 Writing Code
-
-See [Development](https://gitlab.com/midori-web/midori-desktop/-/wikis/home)
-
-### 📝 Translating
-
-- We want to support as many languages as possible. If you want to translate Midori Browser, please clone the [l10n-central](https://gitlab.com/midori-web/l10n-central) repository.
-
-- English is the main language. If you want to translate Midori Browser, please translate from English (en-US)
-
-- Midori's English file is located in the [Midori-Strings]() repository.
-
-### 🐛 Reporting Bugs
-
-- If you find a bug, please report it to the [Issues](https://gitlab.com/midori-web/midori-desktop/-/issues) page or using [Official Support Site](https://astian.org/community/midori-browser).
-
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=goastian/midori-desktop&type=Date)](https://www.star-history.com/#goastian/midori-desktop&Date)
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
