@@ -4,13 +4,35 @@
 [![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/midori-desktop)
 
 <!-- AI:start:what-it-does -->
-_Description pending._
+This project provides the official codebase for the Midori Browser, a lightweight web browser built primarily in C++. It addresses the need for a customizable and efficient browsing experience. Developers and contributors use this repository to maintain and enhance the browser's functionality, including its integration with various tools and dependencies.
 <!-- AI:end:what-it-does -->
 
 ## Architecture
 
 <!-- AI:start:architecture -->
-_Architecture documentation pending._
+Midori Desktop is structured as a modular C++ application with additional tooling and dependencies managed via Node.js, Rust, and Python. The architecture includes browser-specific components, a rendering engine, and integration layers for security, networking, and testing. Rust crates are organized in a workspace for shared functionality, while Python scripts handle auxiliary tasks like testing and configuration. Node.js dependencies are used for linting, formatting, and development workflows. The repository integrates CI/CD workflows for builds and updates across multiple platforms.
+
+Directory structure:
+```plaintext
+.
+├── browser/               # Browser-specific components
+├── js/                    # JavaScript engine and related tools
+├── netwerk/               # Networking modules
+├── security/              # Security and SSL management
+├── testing/               # Testing tools and configurations
+├── toolkit/               # Shared libraries and utilities
+├── tools/                 # Development tools and scripts
+├── third_party/           # External dependencies
+├── media/                 # Multimedia handling
+├── dom/                   # DOM-related modules
+├── gfx/                   # Graphics rendering components
+├── python/                # Python scripts for auxiliary tasks
+├── .github/               # GitHub workflows
+├── Cargo.toml             # Rust workspace configuration
+├── package.json           # Node.js dependencies
+├── pyproject.toml         # Python linting configuration
+└── .clang-format          # C++ code formatting rules
+```
 <!-- AI:end:architecture -->
 
 ## Install
